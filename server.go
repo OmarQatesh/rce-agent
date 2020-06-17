@@ -6,9 +6,10 @@ import (
 	"crypto/tls"
 	"log"
 	"net"
+	"rce-agent/cmd"
 
-	"github.com/square/rce-agent/cmd"
-	pb "github.com/square/rce-agent/pb"
+	pb "rce-agent/pb"
+
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

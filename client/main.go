@@ -22,10 +22,9 @@ import (
 	"log"
 	"net"
 	"os"
+	"rce-agent"
+	"rce-agent/pb"
 	"time"
-
-	"github.com/square/rce-agent"
-	"github.com/square/rce-agent/pb"
 )
 
 var (

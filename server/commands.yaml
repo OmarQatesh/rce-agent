@@ -9,3 +9,5 @@ commands:
     exec: ["/bin/ls", "/tmp/"]
   - name: slow-count
     exec: ["/tmp/slow-count.sh"]
+  - name: get-version
+    exec: ["/bin/echo 1.0.7"]

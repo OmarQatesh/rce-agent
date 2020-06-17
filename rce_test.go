@@ -4,12 +4,12 @@ package rce_test
 
 import (
 	"context"
+	"rce-agent"
+	"rce-agent/cmd"
+	"rce-agent/pb"
 	"testing"
 
 	"github.com/go-test/deep"
-	"github.com/square/rce-agent"
-	"github.com/square/rce-agent/cmd"
-	"github.com/square/rce-agent/pb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 )

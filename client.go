@@ -10,9 +10,9 @@ package rce
 import (
 	"crypto/tls"
 	"io"
+	"rce-agent/pb"
 	"time"
 
-	"github.com/square/rce-agent/pb"
 	context "golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

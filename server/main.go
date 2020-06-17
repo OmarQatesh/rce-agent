@@ -28,8 +28,8 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/square/rce-agent"
-	"github.com/square/rce-agent/cmd"
+	"rce-agent"
+	"rce-agent/cmd"
 )
 
 var (
@@ -110,4 +110,9 @@ func main() {
 	if err := srv.StopServer(); err != nil {
 		log.Printf("Error stopping server: %s\n", err)
 	}
+
+}
+func getReleaseInfo(clientsDir string, clientsID string, clientsEnv string) {
+	info := getClientReleases(clientsDir, clientsID, clientsEnv)
+	log.Printf(info.Owner.ID)
 }

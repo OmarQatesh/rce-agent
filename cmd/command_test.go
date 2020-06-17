@@ -5,8 +5,9 @@ package cmd_test
 import (
 	"testing"
 
+	"rce-agent/cmd"
+
 	"github.com/go-test/deep"
-	"github.com/square/rce-agent/cmd"
 )
 
 var err error
